@@ -36,7 +36,7 @@ const Header = () => {
         <SearchIcon className='w-4 h-5  '/>
         <Input className='w-80 h-6 border-black border-solid rounded relative ' type='email' placeholder='What are you looking for'/>
         </div>
-        <div className="h-10 w-10 rounded-full bg-gray-200 flex justify-center items-center relative"> 
+        <div className="h-10 w-10 rounded-full bg-gray-200 flex justify-center items-center"> 
      <span className="absolute right-1 top-0 rounded-full bg-red-500 h-5 w-5 text-white text-xs text-center"></span>
 
      <ShoppingCart className="h-7 w-7" />
