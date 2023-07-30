@@ -7,8 +7,9 @@ import event3 from "/public/event3.webp";
 
 const Promotion = () => {
   return (
-    <section className="lg:flex md:flex flex-col" >
-      <div className="flex flex-col mt-16 items-center text-center ">
+    <section className="flex flex-col items-center " >
+      
+      <div className="flex flex-col  mt-16 items-center text-center ">
         <h1 className="items-center font-semibold text-blue-700">PROMOTIONS</h1>
         <h2 className="text-4xl font-bold text-black mt-3">
           Our Promotions Events
@@ -16,7 +17,7 @@ const Promotion = () => {
       </div>
 
       {/* Div Left Upper */}
-<div className="flex flex-row justify-between mt-3 ">
+<div className="flex flex-row flex-wrap  justify-between mt-3 ">
       <div className="flex-1">
         <div className="h-2/5 w-4/5 py-10 px-2 bg-gray-300 flex justify-evenly items-center">
           <div className="flex-1">
@@ -69,6 +70,7 @@ const Promotion = () => {
         </div>
       </div>
       </div>
+      
     </section>
   );
 };

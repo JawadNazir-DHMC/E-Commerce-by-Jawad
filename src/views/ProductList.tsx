@@ -1,7 +1,4 @@
 import ProductCard from "@/components/Productcard"
-import P1 from "/public/P1.png"
-import P2 from "/public/P2.png"
-import P3 from "/public/P3.png"
 import { Products } from "@/utils/mock"
 import Image, { StaticImageData } from "next/image"
 import { Badge } from "@/components/ui/badge"
@@ -24,7 +21,9 @@ import { Badge } from "@/components/ui/badge"
                  <ProductCard key={product.id} 
                   title={product.name} 
                  price={product.price}
-                 image={product.image as StaticImageData}/>
+                 image={product.image as StaticImageData}
+                 category={product.category}
+                 id={product.id}/>
              ))
                 
             

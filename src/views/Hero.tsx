@@ -25,9 +25,9 @@ const Hero = () => {
       <Button className='bg-gray-800 h-16 w-13 px-8 mt-4 text-white'><ShoppingCart className='h-6 w-6'/>Start Shopping</Button>
       
         
-        <div className=' mt-10  flex gap-x-5 '>
+        <div className=' mt-10  flex  gap-x-5 '>
           <Image src={Feature1} alt="Feature"/>
-          <Image src={Feature2} alt="Feature"/>
+          <Image src={Feature2}  alt="Feature"/>
           <Image src={Feature3} alt="Feature"/>
           <Image src={Feature4} alt="Feature"/>
         </div>
